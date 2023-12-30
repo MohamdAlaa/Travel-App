@@ -1,0 +1,8 @@
+{
+  "multiDiffEditor.experimental.enabled": true,
+  "launch": {
+    "configurations": [],
+    "compounds": []
+  },
+  "editor.minimap.autohide": true
+}
