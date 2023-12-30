@@ -10,7 +10,7 @@ const Navbar = () => {
         <Image src="/hilink-logo.svg" alt="logo" width={74} height={29} />
       </Link>
 
-      <ul className="hidden h-full gap-12 lg:flex">
+      <ul className=" h-full gap-12 lg:flex">
         {NAV_LINKS.map((link) => (
           <Link
             href={link.href}
@@ -22,7 +22,7 @@ const Navbar = () => {
         ))}
       </ul>
 
-      <div className="lg:flexCenter hidden">
+      <div className="lg:flexCenter ">
         <Button
           type="button"
           title="Login"
